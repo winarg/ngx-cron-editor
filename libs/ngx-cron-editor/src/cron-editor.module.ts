@@ -10,12 +10,10 @@ import { MatRadioModule } from '@angular/material/radio';
 import { CommonModule } from '@angular/common';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
-import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   imports: [
     CommonModule,
-    BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     MatTabsModule,

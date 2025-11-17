@@ -1,7 +1,7 @@
 {
-  "description": "A cron expression generator for Angular 17",
+  "description": "A cron expression generator for Angular 17+",
   "name": "@winarg/ngx-cron-editor",
-  "version": "18.0.0",
+  "version": "18.1.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/winarg/ngx-cron-editor"
@@ -27,15 +27,15 @@
   },
   "homepage": "https://github.com/winarg/ngx-cron-editor",
   "peerDependencies": {
-    "@angular/animations": ">=18",
-    "@angular/core": ">=18",
-    "@angular/common": ">=18",
-    "@angular/compiler": ">=18",
-    "@angular/forms": ">=18",
-    "@angular/platform-browser": ">=18",
-    "@angular/platform-browser-dynamic": ">=18",
-    "@angular/router": ">=18",
-    "@angular/material": ">=18",
+    "@angular/animations": ">=17",
+    "@angular/core": ">=17",
+    "@angular/common": ">=17",
+    "@angular/compiler": ">=17",
+    "@angular/forms": ">=17",
+    "@angular/platform-browser": ">=17",
+    "@angular/platform-browser-dynamic": ">=17",
+    "@angular/router": ">=17",
+    "@angular/material": ">=17",
     "rxjs": ">7.8.0",
     "zone.js": ">0.14.0"
   },

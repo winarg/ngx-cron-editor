@@ -138,8 +138,6 @@ export class CronGenComponent implements OnInit, ControlValueAccessor {
 
     this.state = this.getDefaultState();
 
-    this.handleModelChange(this.cron);
-
     const [defaultHours, defaultMinutes, defaultSeconds] =
       this.options.defaultTime.split(':').map(Number);
 
@@ -278,6 +276,8 @@ export class CronGenComponent implements OnInit, ControlValueAccessor {
       hours: [1],
       minutes: [0]
     });
+
+    this.handleModelChange(this.cron);
   }
 
   /*
